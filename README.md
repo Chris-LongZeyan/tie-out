@@ -1,22 +1,25 @@
-# Tie-Out
+# Tie-Out — Reconcile CSV, Excel, and SQL Server data
 
-Compare CSV files, Excel workbooks, and SQL Server query results with explicit reconciliation rules.
+Find mismatched records, explain differences, and generate readable HTML reports—with precise decimal comparisons and configurable tolerances.
 
-[![Tests](https://github.com/Chris-LongZeyan/tie-out-public/actions/workflows/tests.yml/badge.svg)](https://github.com/Chris-LongZeyan/tie-out-public/actions/workflows/tests.yml)
+[![Tests](https://github.com/Chris-LongZeyan/tie-out/actions/workflows/tests.yml/badge.svg)](https://github.com/Chris-LongZeyan/tie-out/actions/workflows/tests.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Chris-LongZeyan_tie-out-public&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Chris-LongZeyan_tie-out-public&branch=main)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Chris-LongZeyan_tie-out-public&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=Chris-LongZeyan_tie-out-public&metric=reliability_rating&view=list)
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
 
 Tie-Out is a Python command-line tool and Codex skill for reconciling two datasets. It matches records by a unique single or composite key, applies numeric and date tolerances, and reports differences in an aggregate JSON summary and a self-contained HTML report. The skill explains recurring patterns and suggests follow-up checks; diagnostic findings are hypotheses, not confirmed causes.
 
+![Tie-Out report showing exact matches, tolerance matches, mismatched rows, and missing keys](docs/assets/report-preview.png)
+
+*Report preview from the bundled synthetic example.*
+
 ## Quick start
 
 Python 3.10 or later is required. CSV comparisons use only the Python standard library. Run the following commands from a terminal:
 
 ```sh
-git clone https://github.com/Chris-LongZeyan/tie-out-public.git
-cd tie-out-public
-python skills/tie-out/scripts/tie_out.py profile examples/prices_source.csv examples/prices_target.csv
+git clone https://github.com/Chris-LongZeyan/tie-out.git
+cd tie-out
 python skills/tie-out/scripts/tie_out.py compare examples/prices_source.csv examples/prices_target.csv --key record_id --out reports/demo
 ```
 
@@ -52,7 +55,7 @@ Ask Codex's built-in installer:
 
 ```text
 Use $skill-installer to install skills/tie-out from
-https://github.com/Chris-LongZeyan/tie-out-public
+https://github.com/Chris-LongZeyan/tie-out
 ```
 
 Alternatively, copy the complete `skills/tie-out` directory into your user skill directory. For a new installation, run one of the following examples from the repository root.
