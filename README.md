@@ -3,6 +3,8 @@
 Compare CSV files, Excel workbooks, and SQL Server query results with explicit reconciliation rules.
 
 [![Tests](https://github.com/Chris-LongZeyan/tie-out-public/actions/workflows/tests.yml/badge.svg)](https://github.com/Chris-LongZeyan/tie-out-public/actions/workflows/tests.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Chris-LongZeyan_tie-out-public&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Chris-LongZeyan_tie-out-public&branch=main)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Chris-LongZeyan_tie-out-public&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=Chris-LongZeyan_tie-out-public&metric=reliability_rating&view=list)
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
 
 Tie-Out is a Python command-line tool and Codex skill for reconciling two datasets. It matches records by a unique single or composite key, applies numeric and date tolerances, and reports differences in an aggregate JSON summary and a self-contained HTML report. The skill explains recurring patterns and suggests follow-up checks; diagnostic findings are hypotheses, not confirmed causes.
