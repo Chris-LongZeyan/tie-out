@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "created_utc": "2026-09-17T07:01:53.525931+00:00",
+  "python": "3.13.7",
+  "server_version": "17.0.1000.7",
+  "edition": "Express Edition (64-bit)",
+  "driver": "msodbcsql18.dll",
+  "driver_version": "18.05.0002",
+  "checks": [
+    "sql_type_preservation_and_exact_row_limit",
+    "sql_decimal_38_digit_difference",
+    "sql_to_csv",
+    "sql_to_xlsx",
+    "file_to_sql",
+    "composite_sql_to_sql",
+    "valid_composite_sql_to_sql",
+    "numeric_boundary",
+    "numeric_difference",
+    "profile",
+    "row_limit",
+    "query_error",
+    "unnamed_column",
+    "duplicate_column",
+    "blank_key",
+    "duplicate_key",
+    "empty_result"
+  ],
+  "scope": "Synthetic SELECT-only queries; no database objects created or modified.",
+  "limitations": "No production data, remote/TLS validation, SQL authentication, forced timeout, or performance testing.",
+  "unit_tests_passed": 40,
+  "differential_cases_passed": 100,
+  "skill_metadata_validation": "pass"
+}

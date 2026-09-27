@@ -1,0 +1,301 @@
+{
+  "label": "optimized",
+  "script": "skills/tie-out/scripts/tie_out.py",
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "logical_cpus": 16,
+    "ram_gib": 31.364871978759766
+  },
+  "cases": [
+    {
+      "rows_per_side": 10000,
+      "format": "csv",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 0.07711620000009134,
+          "work_s": 0.07064170000012382,
+          "total_s": 0.14775790000021516,
+          "peak_mib": 34.56640625,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 0.28894339999897056
+        },
+        {
+          "load_s": 0.08642799999870476,
+          "work_s": 0.07784040000115056,
+          "total_s": 0.16426839999985532,
+          "peak_mib": 34.08984375,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 0.3249678000011045
+        },
+        {
+          "load_s": 0.09269519999907061,
+          "work_s": 0.07359490000089863,
+          "total_s": 0.16629009999996924,
+          "peak_mib": 34.08203125,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 0.33643579999989015
+        }
+      ],
+      "median_s": 0.3249678000011045,
+      "peak_mib": 34.56640625
+    },
+    {
+      "rows_per_side": 10000,
+      "format": "csv",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 0.0744025000003603,
+          "work_s": 0.1131597999992664,
+          "total_s": 0.1875622999996267,
+          "peak_mib": 34.78125,
+          "summary_bytes": 1773,
+          "correct": true,
+          "process_wall_s": 0.3294182000008732
+        },
+        {
+          "load_s": 0.07596929999999702,
+          "work_s": 0.10995259999981499,
+          "total_s": 0.185921899999812,
+          "peak_mib": 34.81640625,
+          "summary_bytes": 1773,
+          "correct": true,
+          "process_wall_s": 0.33950589999949443
+        },
+        {
+          "load_s": 0.08060309999927995,
+          "work_s": 0.11552839999967546,
+          "total_s": 0.1961314999989554,
+          "peak_mib": 34.7890625,
+          "summary_bytes": 1773,
+          "correct": true,
+          "process_wall_s": 0.3343783000000258
+        }
+      ],
+      "median_s": 0.3343783000000258,
+      "peak_mib": 34.81640625
+    },
+    {
+      "rows_per_side": 100000,
+      "format": "csv",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 0.6175026000000798,
+          "work_s": 0.7919208999992406,
+          "total_s": 1.4094234999993205,
+          "peak_mib": 143.7421875,
+          "summary_bytes": 1350,
+          "correct": true,
+          "process_wall_s": 1.614666199999192
+        },
+        {
+          "load_s": 0.60843290000048,
+          "work_s": 0.7707506000006106,
+          "total_s": 1.3791835000010906,
+          "peak_mib": 144.953125,
+          "summary_bytes": 1350,
+          "correct": true,
+          "process_wall_s": 1.5973223000000871
+        },
+        {
+          "load_s": 0.6115868000015325,
+          "work_s": 0.7896982999991451,
+          "total_s": 1.4012851000006776,
+          "peak_mib": 145.3359375,
+          "summary_bytes": 1350,
+          "correct": true,
+          "process_wall_s": 1.605462699999407
+        }
+      ],
+      "median_s": 1.605462699999407,
+      "peak_mib": 145.3359375
+    },
+    {
+      "rows_per_side": 100000,
+      "format": "csv",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 0.6044612000005145,
+          "work_s": 1.1494598999997834,
+          "total_s": 1.7539211000002979,
+          "peak_mib": 154.046875,
+          "summary_bytes": 1798,
+          "correct": true,
+          "process_wall_s": 2.0157904000006965
+        },
+        {
+          "load_s": 0.6203758999999991,
+          "work_s": 1.21186790000138,
+          "total_s": 1.832243800001379,
+          "peak_mib": 153.4453125,
+          "summary_bytes": 1798,
+          "correct": true,
+          "process_wall_s": 2.027600600000369
+        },
+        {
+          "load_s": 0.6399445999995805,
+          "work_s": 1.1901352000004408,
+          "total_s": 1.8300798000000214,
+          "peak_mib": 153.4453125,
+          "summary_bytes": 1798,
+          "correct": true,
+          "process_wall_s": 2.025499100000161
+        }
+      ],
+      "median_s": 2.025499100000161,
+      "peak_mib": 154.046875
+    },
+    {
+      "rows_per_side": 500000,
+      "format": "csv",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 3.1118217000002915,
+          "work_s": 6.532623999999487,
+          "total_s": 9.644445699999778,
+          "peak_mib": 624.80859375,
+          "summary_bytes": 1360,
+          "correct": true,
+          "process_wall_s": 10.10141459999977
+        },
+        {
+          "load_s": 3.1295962000003783,
+          "work_s": 6.840317099999083,
+          "total_s": 9.969913299999462,
+          "peak_mib": 626.93359375,
+          "summary_bytes": 1360,
+          "correct": true,
+          "process_wall_s": 10.516834100000779
+        },
+        {
+          "load_s": 3.076223399999435,
+          "work_s": 6.815243800001554,
+          "total_s": 9.891467200000989,
+          "peak_mib": 627.03125,
+          "summary_bytes": 1360,
+          "correct": true,
+          "process_wall_s": 10.38994509999975
+        }
+      ],
+      "median_s": 10.38994509999975,
+      "peak_mib": 627.03125
+    },
+    {
+      "rows_per_side": 500000,
+      "format": "csv",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 3.0928883999986283,
+          "work_s": 11.691202200001499,
+          "total_s": 14.784090600000127,
+          "peak_mib": 664.80859375,
+          "summary_bytes": 1812,
+          "correct": true,
+          "process_wall_s": 15.252934900001492
+        },
+        {
+          "load_s": 3.142553899999257,
+          "work_s": 11.344797600000675,
+          "total_s": 14.487351499999932,
+          "peak_mib": 664.24609375,
+          "summary_bytes": 1812,
+          "correct": true,
+          "process_wall_s": 14.9767537000007
+        },
+        {
+          "load_s": 3.0409184000000096,
+          "work_s": 11.394991699999082,
+          "total_s": 14.435910099999091,
+          "peak_mib": 664.6953125,
+          "summary_bytes": 1812,
+          "correct": true,
+          "process_wall_s": 14.901133299999856
+        }
+      ],
+      "median_s": 14.9767537000007,
+      "peak_mib": 664.80859375
+    },
+    {
+      "rows_per_side": 10000,
+      "format": "xlsx",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 2.7715639999987616,
+          "work_s": 0.07343580000087968,
+          "total_s": 2.8449997999996413,
+          "peak_mib": 60.03125,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 3.086090400000103
+        },
+        {
+          "load_s": 2.8076716999985365,
+          "work_s": 0.10323070000049483,
+          "total_s": 2.9109023999990313,
+          "peak_mib": 60.0390625,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 3.1915313999998034
+        },
+        {
+          "load_s": 2.7796127000001434,
+          "work_s": 0.08065480000004754,
+          "total_s": 2.860267500000191,
+          "peak_mib": 60.1484375,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 3.0895528999990347
+        }
+      ],
+      "median_s": 3.0895528999990347,
+      "peak_mib": 60.1484375
+    },
+    {
+      "rows_per_side": 10000,
+      "format": "xlsx",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 2.7522356000008585,
+          "work_s": 0.14655969999876106,
+          "total_s": 2.8987952999996196,
+          "peak_mib": 61.1328125,
+          "summary_bytes": 1773,
+          "correct": true,
+          "process_wall_s": 3.1491733999991993
+        },
+        {
+          "load_s": 2.7333323000002565,
+          "work_s": 0.08837690000109433,
+          "total_s": 2.821709200001351,
+          "peak_mib": 61.35546875,
+          "summary_bytes": 1773,
+          "correct": true,
+          "process_wall_s": 3.0232716999998956
+        },
+        {
+          "load_s": 2.6336301999999705,
+          "work_s": 0.0872562000004109,
+          "total_s": 2.7208864000003814,
+          "peak_mib": 61.265625,
+          "summary_bytes": 1773,
+          "correct": true,
+          "process_wall_s": 2.900871100000586
+        }
+      ],
+      "median_s": 3.0232716999998956,
+      "peak_mib": 61.35546875
+    }
+  ]
+}

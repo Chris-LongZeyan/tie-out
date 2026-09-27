@@ -1,0 +1,7 @@
+{
+  "seed": 20260916,
+  "cases": 100,
+  "keys_per_case": 200,
+  "status": "pass",
+  "scope": "unique string keys, integer numeric differences, exact strings, missing rows, shuffled ordering; no assertion of full engine equivalence"
+}

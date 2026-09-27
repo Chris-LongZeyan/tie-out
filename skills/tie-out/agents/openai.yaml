@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tie-Out"
+  short_description: "Reconcile exports and explain mismatch patterns"
+  default_prompt: "Use $tie-out to compare my two exports and explain the reconciliation differences."

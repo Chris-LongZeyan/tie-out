@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-27",
+  "unit_tests": {
+    "tests": 48,
+    "status": "pass",
+    "python": "3.13.7"
+  },
+  "differential": {
+    "seed": 20260916,
+    "cases": 100,
+    "keys_per_case": 200,
+    "status": "pass",
+    "scope": "unique string keys, integer numeric differences, exact strings, missing rows, shuffled ordering; no assertion of full engine equivalence"
+  },
+  "timed_runs": 57,
+  "expected_count_assertions": "pass",
+  "live_sql": "Not rerun; latest recorded acceptance is 2026-09-17."
+}

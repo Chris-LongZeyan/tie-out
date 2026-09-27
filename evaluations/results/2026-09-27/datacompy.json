@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-27",
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "logical_cpus": 16,
+    "ram_gib": 31.364871978759766
+  },
+  "dependencies": {
+    "datacompy": "1.0.4",
+    "pandas": "2.3.1",
+    "numpy": "2.3.1",
+    "openpyxl": "3.1.5",
+    "psutil": "7.2.2"
+  },
+  "cases": [
+    {
+      "rows_per_side": 10000,
+      "runs": [
+        {
+          "version": "1.0.4",
+          "load_s": 0.992087599937804,
+          "work_s": 0.1154936000239104,
+          "total_s": 1.1075811999617144,
+          "peak_mib": 106.8984375,
+          "correct": true,
+          "matching_rows": 9215,
+          "process_wall_s": 1.4563910000724718
+        },
+        {
+          "version": "1.0.4",
+          "load_s": 0.9232632000930607,
+          "work_s": 0.11853279999922961,
+          "total_s": 1.0417960000922903,
+          "peak_mib": 106.91015625,
+          "correct": true,
+          "matching_rows": 9215,
+          "process_wall_s": 1.4254354999866337
+        },
+        {
+          "version": "1.0.4",
+          "load_s": 0.9536156000103801,
+          "work_s": 0.10141890007071197,
+          "total_s": 1.0550345000810921,
+          "peak_mib": 106.80859375,
+          "correct": true,
+          "matching_rows": 9215,
+          "process_wall_s": 1.402537800022401
+        }
+      ],
+      "median_s": 1.4254354999866337,
+      "peak_mib": 106.91015625
+    },
+    {
+      "rows_per_side": 100000,
+      "runs": [
+        {
+          "version": "1.0.4",
+          "load_s": 1.3744151999708265,
+          "work_s": 0.535299799987115,
+          "total_s": 1.9097149999579415,
+          "peak_mib": 165.953125,
+          "correct": true,
+          "matching_rows": 92150,
+          "process_wall_s": 2.2758415000280365
+        },
+        {
+          "version": "1.0.4",
+          "load_s": 1.2870144000044093,
+          "work_s": 0.5225540000246838,
+          "total_s": 1.809568400029093,
+          "peak_mib": 166.15625,
+          "correct": true,
+          "matching_rows": 92150,
+          "process_wall_s": 2.15220260003116
+        },
+        {
+          "version": "1.0.4",
+          "load_s": 1.3365979000227526,
+          "work_s": 0.5099373999983072,
+          "total_s": 1.8465353000210598,
+          "peak_mib": 166.01171875,
+          "correct": true,
+          "matching_rows": 92150,
+          "process_wall_s": 2.2021364000393078
+        }
+      ],
+      "median_s": 2.2021364000393078,
+      "peak_mib": 166.15625
+    },
+    {
+      "rows_per_side": 500000,
+      "runs": [
+        {
+          "version": "1.0.4",
+          "load_s": 2.607209200039506,
+          "work_s": 2.9831147000659257,
+          "total_s": 5.590323900105432,
+          "peak_mib": 430.76171875,
+          "correct": true,
+          "matching_rows": 460750,
+          "process_wall_s": 6.073248400003649
+        },
+        {
+          "version": "1.0.4",
+          "load_s": 2.678069500019774,
+          "work_s": 2.9309064999688417,
+          "total_s": 5.6089759999886155,
+          "peak_mib": 430.8125,
+          "correct": true,
+          "matching_rows": 460750,
+          "process_wall_s": 6.04906780004967
+        },
+        {
+          "version": "1.0.4",
+          "load_s": 2.5593102000420913,
+          "work_s": 3.0721671999199316,
+          "total_s": 5.631477399962023,
+          "peak_mib": 430.62890625,
+          "correct": true,
+          "matching_rows": 460750,
+          "process_wall_s": 6.110972599941306
+        }
+      ],
+      "median_s": 6.073248400003649,
+      "peak_mib": 430.8125
+    }
+  ]
+}

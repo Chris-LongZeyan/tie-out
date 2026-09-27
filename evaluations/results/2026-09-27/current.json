@@ -1,0 +1,307 @@
+{
+  "label": "current-20260927",
+  "script": "skills/tie-out/scripts/tie_out.py",
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "logical_cpus": 16,
+    "ram_gib": 31.364871978759766
+  },
+  "cases": [
+    {
+      "rows_per_side": 10000,
+      "format": "csv",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 0.059616000042296946,
+          "work_s": 0.044318599975667894,
+          "total_s": 0.10393460001796484,
+          "peak_mib": 34.8671875,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 0.28716300008818507
+        },
+        {
+          "load_s": 0.05568150000181049,
+          "work_s": 0.043004299979656935,
+          "total_s": 0.09868579998146743,
+          "peak_mib": 34.359375,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 0.2745240000076592
+        },
+        {
+          "load_s": 0.057332700002007186,
+          "work_s": 0.04167309997137636,
+          "total_s": 0.09900579997338355,
+          "peak_mib": 34.4296875,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 0.2731950000161305
+        }
+      ],
+      "median_s": 0.2745240000076592,
+      "peak_mib": 34.8671875
+    },
+    {
+      "rows_per_side": 10000,
+      "format": "csv",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 0.05683190003037453,
+          "work_s": 0.026593899936415255,
+          "total_s": 0.08342579996678978,
+          "peak_mib": 35.09375,
+          "summary_bytes": 1800,
+          "correct": true,
+          "process_wall_s": 0.2693630999419838
+        },
+        {
+          "load_s": 0.0575059000402689,
+          "work_s": 0.026392699917778373,
+          "total_s": 0.08389859995804727,
+          "peak_mib": 34.92578125,
+          "summary_bytes": 1800,
+          "correct": true,
+          "process_wall_s": 0.25648540002293885
+        },
+        {
+          "load_s": 0.055391900008544326,
+          "work_s": 0.025859500048682094,
+          "total_s": 0.08125140005722642,
+          "peak_mib": 35.2109375,
+          "summary_bytes": 1800,
+          "correct": true,
+          "process_wall_s": 0.2539270999841392
+        }
+      ],
+      "median_s": 0.25648540002293885,
+      "peak_mib": 35.2109375
+    },
+    {
+      "rows_per_side": 100000,
+      "format": "csv",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 0.3631081000203267,
+          "work_s": 0.5111967000411823,
+          "total_s": 0.874304800061509,
+          "peak_mib": 145.421875,
+          "summary_bytes": 1350,
+          "correct": true,
+          "process_wall_s": 1.0854733999585733
+        },
+        {
+          "load_s": 0.37490030005574226,
+          "work_s": 0.4918319999706,
+          "total_s": 0.8667323000263423,
+          "peak_mib": 145.0078125,
+          "summary_bytes": 1350,
+          "correct": true,
+          "process_wall_s": 1.0762952999211848
+        },
+        {
+          "load_s": 0.38375929999165237,
+          "work_s": 0.5079215000150725,
+          "total_s": 0.8916808000067249,
+          "peak_mib": 145.94921875,
+          "summary_bytes": 1350,
+          "correct": true,
+          "process_wall_s": 1.102312000002712
+        }
+      ],
+      "median_s": 1.0854733999585733,
+      "peak_mib": 145.94921875
+    },
+    {
+      "rows_per_side": 100000,
+      "format": "csv",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 0.36740230000577867,
+          "work_s": 0.30357750004623085,
+          "total_s": 0.6709798000520095,
+          "peak_mib": 149.59765625,
+          "summary_bytes": 1825,
+          "correct": true,
+          "process_wall_s": 0.8902300999034196
+        },
+        {
+          "load_s": 0.3623876000056043,
+          "work_s": 0.2953725999686867,
+          "total_s": 0.657760199974291,
+          "peak_mib": 149.51171875,
+          "summary_bytes": 1825,
+          "correct": true,
+          "process_wall_s": 0.8704533000709489
+        },
+        {
+          "load_s": 0.3621092999819666,
+          "work_s": 0.291498800041154,
+          "total_s": 0.6536081000231206,
+          "peak_mib": 149.515625,
+          "summary_bytes": 1825,
+          "correct": true,
+          "process_wall_s": 0.8593925000168383
+        }
+      ],
+      "median_s": 0.8704533000709489,
+      "peak_mib": 149.59765625
+    },
+    {
+      "rows_per_side": 500000,
+      "format": "csv",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 1.7630455999169499,
+          "work_s": 3.248523800051771,
+          "total_s": 5.011569399968721,
+          "peak_mib": 625.671875,
+          "summary_bytes": 1360,
+          "correct": true,
+          "process_wall_s": 5.399579299963079
+        },
+        {
+          "load_s": 1.84288559993729,
+          "work_s": 3.3325891999993473,
+          "total_s": 5.175474799936637,
+          "peak_mib": 625.75,
+          "summary_bytes": 1360,
+          "correct": true,
+          "process_wall_s": 5.565229799947701
+        },
+        {
+          "load_s": 1.8410398999694735,
+          "work_s": 3.111385800060816,
+          "total_s": 4.95242570003029,
+          "peak_mib": 625.7734375,
+          "summary_bytes": 1360,
+          "correct": true,
+          "process_wall_s": 5.331899799988605
+        }
+      ],
+      "median_s": 5.399579299963079,
+      "peak_mib": 625.7734375
+    },
+    {
+      "rows_per_side": 500000,
+      "format": "csv",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 1.7786387000232935,
+          "work_s": 1.9483051999704912,
+          "total_s": 3.7269438999937847,
+          "peak_mib": 645.26953125,
+          "summary_bytes": 1839,
+          "correct": true,
+          "process_wall_s": 4.114292899961583
+        },
+        {
+          "load_s": 1.828483400051482,
+          "work_s": 1.9657391000073403,
+          "total_s": 3.7942225000588223,
+          "peak_mib": 645.30078125,
+          "summary_bytes": 1839,
+          "correct": true,
+          "process_wall_s": 4.1724548999918625
+        },
+        {
+          "load_s": 1.8141763999592513,
+          "work_s": 2.3794946999987587,
+          "total_s": 4.19367109995801,
+          "peak_mib": 645.23046875,
+          "summary_bytes": 1839,
+          "correct": true,
+          "process_wall_s": 4.662208199966699
+        }
+      ],
+      "median_s": 4.1724548999918625,
+      "peak_mib": 645.30078125
+    },
+    {
+      "rows_per_side": 10000,
+      "format": "xlsx",
+      "mode": "profile",
+      "runs": [
+        {
+          "load_s": 3.4791161000030115,
+          "work_s": 0.08461639995221049,
+          "total_s": 3.563732499955222,
+          "peak_mib": 60.234375,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 3.829115099972114
+        },
+        {
+          "load_s": 3.456785300048068,
+          "work_s": 0.07407549989875406,
+          "total_s": 3.5308607999468222,
+          "peak_mib": 60.1015625,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 3.8111292999237776
+        },
+        {
+          "load_s": 3.4005786000052467,
+          "work_s": 0.08700759999919683,
+          "total_s": 3.4875862000044435,
+          "peak_mib": 60.37890625,
+          "summary_bytes": 1336,
+          "correct": true,
+          "process_wall_s": 3.7726009000325575
+        }
+      ],
+      "median_s": 3.8111292999237776,
+      "peak_mib": 60.37890625
+    },
+    {
+      "rows_per_side": 10000,
+      "format": "xlsx",
+      "mode": "compare",
+      "runs": [
+        {
+          "load_s": 3.1340007000835612,
+          "work_s": 0.04452389990910888,
+          "total_s": 3.17852459999267,
+          "peak_mib": 60.94921875,
+          "summary_bytes": 1800,
+          "correct": true,
+          "process_wall_s": 3.43268910003826
+        },
+        {
+          "load_s": 3.261385399964638,
+          "work_s": 0.0440409000730142,
+          "total_s": 3.3054263000376523,
+          "peak_mib": 60.484375,
+          "summary_bytes": 1800,
+          "correct": true,
+          "process_wall_s": 3.56938280002214
+        },
+        {
+          "load_s": 2.994387299986556,
+          "work_s": 0.049871600000187755,
+          "total_s": 3.044258899986744,
+          "peak_mib": 60.8359375,
+          "summary_bytes": 1800,
+          "correct": true,
+          "process_wall_s": 3.2854851000010967
+        }
+      ],
+      "median_s": 3.43268910003826,
+      "peak_mib": 60.94921875
+    }
+  ],
+  "date": "2026-09-27",
+  "implementation": {
+    "base_commit": "0a940990fadb494d52ae47a95fbba1deef21592b",
+    "source_sha256_lf": "54119a7f8ead9ef6993881dccbb9f1d640d491ff39e5e59327bdae09652637eb",
+    "description": "CSV loading, bounded inference cache, validated equal-row aggregation, single-pass indexes, exact date tolerance arithmetic"
+  }
+}
