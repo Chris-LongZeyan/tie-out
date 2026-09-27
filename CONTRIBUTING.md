@@ -2,6 +2,8 @@
 
 Contributions should preserve Tie-Out's comparison contract: exact key matching, decimal precision, documented missing-value handling, and separation of aggregate summaries from sampled report data.
 
+All participants are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md). Report potential vulnerabilities privately using the [Security Policy](SECURITY.md), rather than a public issue or pull request.
+
 ## Repository structure
 
 | Path | Purpose |

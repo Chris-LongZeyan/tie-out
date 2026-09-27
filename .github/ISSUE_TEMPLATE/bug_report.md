@@ -8,6 +8,8 @@ assignees: ""
 
 ## Expected and actual behavior
 
+For potential security vulnerabilities, follow the [Security Policy](https://github.com/Chris-LongZeyan/tie-out/security/policy) instead of opening a public issue.
+
 Describe what you expected and what happened. Include the exit code or sanitized error message.
 
 ## Reproduction

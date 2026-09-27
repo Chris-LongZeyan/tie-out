@@ -91,6 +91,8 @@ If you do not specify a key, the skill profiles both inputs and asks you to conf
 - [Usage guide](docs/usage.md): comparison rules, composite keys, tolerances, outputs, and exit codes.
 - [SQL Server integration](docs/sql-server.md): setup, permissions, examples, and troubleshooting.
 - [Contributing](CONTRIBUTING.md): repository structure, test commands, and quality checks.
+- [Code of Conduct](CODE_OF_CONDUCT.md): community standards and incident reporting.
+- [Security Policy](SECURITY.md): supported releases and private vulnerability reporting.
 - [Evaluation methods and results](evaluations/README.md): reproducible benchmarks and live SQL acceptance tests.
 
 ## Measured performance
